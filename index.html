@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haven Atelier</title>
+<meta name="description" content="Haven Atelier — 日本で働く人のための学習アプリをつくっています。">
+<style>
+  :root {
+    --brand: #C0564C; --brand-deep: #8F3A32;
+    --ink: #1F1715; --ink2: #50433F; --ink3: #877772;
+    --ground: #F5F0EE; --surface: #FFFFFF; --line: #E6DBD7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 16px 64px; background: var(--ground); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8; font-size: 16px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  header { padding: 48px 0 8px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .lede { color: var(--ink2); margin: 0; }
+  h2 { font-size: 16px; margin: 36px 0 12px; }
+  .card {
+    display: block; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 18px 20px; margin-top: 12px;
+    text-decoration: none; color: inherit;
+  }
+  .card .name { font-weight: 700; color: var(--ink); }
+  .card .desc { color: var(--ink2); font-size: 14.5px; }
+  .links { margin-top: 10px; font-size: 14px; }
+  .links a { color: var(--brand-deep); margin-right: 14px; }
+  footer { margin-top: 44px; font-size: 13px; color: var(--ink3); }
+  @media (max-width: 520px) { body { font-size: 15px; } header { padding-top: 32px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Haven Atelier</h1>
+    <p class="lede">日本で働く人のための学習アプリをつくっています。<br>
+      We build study apps for people working in Japan.</p>
+  </header>
+
+  <h2>アプリ / Apps</h2>
+
+  <div class="card">
+    <div class="name">カイゴドリル / Kaigo Drill</div>
+    <div class="desc">介護分野の特定技能評価試験（技能）を母語で学べる学習アプリ。<br>
+      A study app for Japan’s care-worker skill evaluation test, in your own language.</div>
+    <div class="links">
+      <a href="https://ribbits87-sys.github.io/kaigo-drill-site/">サポート / Support</a>
+      <a href="https://ribbits87-sys.github.io/kaigo-drill-site/privacy.html">プライバシーポリシー / Privacy</a>
+    </div>
+  </div>
+
+  <h2>お問い合わせ / Contact</h2>
+  <p><a href="mailto:haven.j.atelier@gmail.com">haven.j.atelier@gmail.com</a></p>
+
+  <footer>© Haven Atelier</footer>
+</div>
+</body>
+</html>
